@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Duck Pond Simulator</title>
+<style>
+body { background: #b0e0e6; font-family: sans-serif; text-align: center; padding-top: 50px; }
+.pond { width: 300px; height: 300px; background: #4682b4; border-radius: 50%; margin: 0 auto; position: relative; cursor: pointer; }
+.ripple { position: absolute; border: 2px solid white; border-radius: 50%; animation: rippleEffect 1s linear infinite; }
+@keyframes rippleEffect { 0% { width: 0px; height: 0px; top: 150px; left: 150px; opacity: 1; } 100% { width: 200px; height: 200px; top: 50px; left: 50px; opacity: 0; } }
+</style>
+</head>
+<body>
+<h1>Duck Pond Simulator 🦆</h1>
+<p>Click the pond to make ripples!</p>
+<div class="pond" onclick="makeRipple(event)"></div>
+<script>
+function makeRipple(e) {
+  const pond = e.target;
+  const ripple = document.createElement('div');
+  ripple.className = 'ripple';
+  ripple.style.left = (e.offsetX - 50) + 'px';
+  ripple.style.top = (e.offsetY - 50) + 'px';
+  pond.appendChild(ripple);
+  setTimeout(() => ripple.remove(), 1000);
+}
+</script>
+</body>
+</html>
