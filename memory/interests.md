@@ -1,0 +1,3 @@
+- Chess strategies for beginners (found through 'Chess', 2026-10-28)
+- Digital interface design (found through 'Tito_Website_Lesson_01', 2026-10-28)
+- Military strategy history (found through 'Titos_Little_Book_of_Chess_Strategy', 2026-10-28)
