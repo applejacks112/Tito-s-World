@@ -2,3 +2,4 @@
 - Digital interface design (found through 'Tito_Website_Lesson_01', 2026-10-28)
 - Military strategy history (found through 'Titos_Little_Book_of_Chess_Strategy', 2026-10-28)
 - Personal financial planning (found through '01_Money_Choices_and_Risk', 2026-10-28)
+- Web design systems (found through '02_Beautiful_Code_and_Web_Design', 2026-10-28)
